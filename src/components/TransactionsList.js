@@ -19,7 +19,7 @@ const TransactionsList = () => {
             <h3 className="ui center aligned header">Amount</h3>
           </th>
         </tr>
-        {/* render Transactions here */}
+        {/*props go here*/}
       </tbody>
     </table>
   );
