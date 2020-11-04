@@ -83,6 +83,27 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-11-01",
+      "description": "TacoNaso",
+      "category": "Food",
+      "amount": "100",
+      "id": 13
+    },
+    {
+      "date": "2020-11-05",
+      "description": "Yumm",
+      "category": "Food",
+      "amount": "-100",
+      "id": 14
+    },
+    {
+      "date": "2020-11-05",
+      "description": "Yumm",
+      "category": "Food",
+      "amount": "-100",
+      "id": 15
     }
   ]
 }
