@@ -83,6 +83,20 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "id": 13,
+      "date": "2020-11-20",
+      "description": "Sip Saam Thai",
+      "category": "Food",
+      "amount": "43.35"
+    },
+    {
+      "id": 14,
+      "date": "2020-11-21",
+      "description": "Refunded Sip Saam Thai",
+      "category": "Food",
+      "amount": "-43.35"
     }
   ]
 }
