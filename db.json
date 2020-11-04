@@ -83,6 +83,48 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-11-12",
+      "description": "car payment",
+      "category": "car",
+      "amount": "250",
+      "id": 13
+    },
+    {
+      "date": "2020-11-05",
+      "description": "in n out",
+      "category": "food",
+      "amount": "-10.25",
+      "id": 14
+    },
+    {
+      "date": "2020-11-04",
+      "description": "venmo rent",
+      "category": "rent",
+      "amount": "-1000",
+      "id": 15
+    },
+    {
+      "date": "2020-11-18",
+      "description": "paycheck",
+      "category": "work",
+      "amount": "2000",
+      "id": 16
+    },
+    {
+      "date": "2020-11-04",
+      "description": "python project",
+      "category": "work",
+      "amount": "4500",
+      "id": 17
+    },
+    {
+      "date": "2020-11-27",
+      "description": "NGHTMARE concert",
+      "category": "entertainment",
+      "amount": "-50",
+      "id": 18
     }
   ]
 }
