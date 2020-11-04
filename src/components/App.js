@@ -9,7 +9,8 @@ class App extends Component {
 
     this.state = {
       transactions: [],
-      search: ''
+      search: '',
+      sort: ''
     }
   }
 
@@ -22,6 +23,10 @@ class App extends Component {
   handleSearch = (input) => {
     let search = input.toLowerCase()
     this.setState({search})
+  }
+
+  handleSort = (sort) => {
+    this.setState({sort})
   }
 
   addTransaction = (transaction) => {
@@ -38,14 +43,33 @@ class App extends Component {
    .then(newT => this.setState({transactions: [...this.state.transactions, newT]}))
   }
 
+  deleteT = (t) => {
+    fetch(`${URL}/${t.id}`, {
+      method: 'DELETE'
+    })
+    .then(this.setState({transactions: this.state.transactions.filter(tran => tran.id !== t.id)}))
+  }
+
+  sortBy = () => {
+    let transactions = this.state.transactions
+    let sort = this.state.sort
+    if(sort === 'category') {
+      transactions = transactions.sort((a,b) => (a.category > b.category) ? 1 : ((b.category > a.category) ? -1 : 0)) 
+    } else if(sort === 'description') {
+      transactions = transactions.sort((a,b) => (a.description > b.description) ? 1 : ((b.description > a.description) ? -1 : 0))
+    }
+    return transactions
+  }
+
   render() {
-    const transactions = this.state.transactions.filter(t => t.description.toLowerCase().includes(this.state.search))
+    const transactions = this.sortBy().filter(t => t.description.toLowerCase().includes(this.state.search))
     return (
       <div className="ui raised segment">
         <div className="ui segment violet inverted">
           <h2>The Royal Bank of Flatiron</h2>
         </div>
-        <AccountContainer transactions={transactions} addTransaction={this.addTransaction} handleSearch={this.handleSearch}/>
+        <AccountContainer transactions={transactions} addTransaction={this.addTransaction} handleSearch={this.handleSearch}
+        deleteT={this.deleteT} sort={this.state.sort} handleSort={this.handleSort}/>
       </div>
     );
   }

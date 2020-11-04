@@ -50,13 +50,6 @@
       "amount": 50
     },
     {
-      "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
-    },
-    {
       "id": 9,
       "date": "2019-12-11",
       "description": "Paycheck from Bob's Burgers",
@@ -90,13 +83,6 @@
       "description": "Sip Saam Thai",
       "category": "Food",
       "amount": "43.35"
-    },
-    {
-      "id": 14,
-      "date": "2020-11-21",
-      "description": "Refunded Sip Saam Thai",
-      "category": "Food",
-      "amount": "-43.35"
     }
   ]
 }
