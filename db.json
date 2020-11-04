@@ -83,6 +83,69 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2020-11-18",
+      "description": "aasdf",
+      "category": "asd;flkj",
+      "amount": "1000",
+      "id": 13
+    },
+    {
+      "date": "2020-11-13",
+      "description": "asdf",
+      "category": "a;sdlkfj",
+      "amount": "1000",
+      "id": 14
+    },
+    {
+      "date": "2020-11-19",
+      "description": "asdf",
+      "category": "asf",
+      "amount": "1000",
+      "id": 15
+    },
+    {
+      "date": "2020-11-12",
+      "description": "asdf",
+      "category": "asdf",
+      "amount": "1000",
+      "id": 16
+    },
+    {
+      "date": "2020-11-28",
+      "description": "asdf",
+      "category": "asdf",
+      "amount": "1000",
+      "id": 17
+    },
+    {
+      "date": "2020-11-25",
+      "description": "John",
+      "category": ";laksjdf",
+      "amount": "1000",
+      "id": 18
+    },
+    {
+      "date": "2020-11-24",
+      "description": "Raul",
+      "category": "fire",
+      "amount": "2000",
+      "id": 19
+    },
+    {
+      "date": "2020-11-12",
+      "description": "hello",
+      "category": ";laksdjf",
+      "amount": "1000",
+      "id": 20
+    },
+    {
+      "date": "2020-11-17",
+      "description": "adsf",
+      "category": "asdf",
+      "amount": "0.06",
+      "id": 21
     }
   ]
 }
